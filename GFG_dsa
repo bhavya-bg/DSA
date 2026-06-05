@@ -2,3 +2,26 @@
 Given an array of positive integers arr[], return the second largest element from the array. 
 If the second largest element doesn't exist then return -1.
 solution: 
+class Solution {
+    public int getSecondLargest(int[] arr) {
+        
+       int largest= -1;
+        int SecondLargest= -1;
+        for (int num : arr)
+        {
+          
+        
+           if (num > largest) {
+            SecondLargest = largest;
+            largest = num;
+            
+           }
+          
+            else if (num != largest && num > SecondLargest) {
+          
+                SecondLargest = num;
+            }
+        }
+        return SecondLargest;
+    }
+}
