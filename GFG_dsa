@@ -25,3 +25,7 @@ class Solution {
         return SecondLargest;
     }
 }
+
+
+2. Sum All Array Elements
+solution:
