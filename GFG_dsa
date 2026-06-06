@@ -29,3 +29,16 @@ class Solution {
 
 2. Sum All Array Elements
 solution:
+
+class Solution {
+    int arraySum(List<Integer> arr) {
+
+        int sum = 0;
+
+        for (int num : arr) {
+            sum += num;
+        }
+
+        return sum;
+    }
+}
