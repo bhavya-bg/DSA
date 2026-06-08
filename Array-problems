@@ -100,7 +100,40 @@ class Solution {
 
 2161. Partition Array According to Given Pivot
 solution:
+class Solution {
+    public int[] pivotArray(int[] nums, int pivot) {
+        int n = nums.length;
+        int[] result = new int[n];
+        int index = 0;
 
+        // element smaller than pivot 
+        for (int num : nums){
+            if(num < pivot){
+                result[index++] = num;
+            }
+        }
+         
+         //element equal to pivot
+
+         for (int num : nums){
+            if(num == pivot){
+                result[index++] = num;
+
+            }
+         }
+
+         //element greater than pivot
+
+         for (int num : nums) {
+            if (num > pivot){
+                result[index
+                ++] = num;
+            }
+         }
+
+         return result;
+    }
+}
 
 
 
