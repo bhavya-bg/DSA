@@ -137,6 +137,23 @@ class Solution {
 
 
 3689. Maximum Total Subarray Value I
+solution:
+class Solution {
+    public long maxTotalValue(int[] nums, int k) {
+        if(nums == null || nums.length == 0 ){
+            return 0;
+        }
+        int minVal = Integer.MAX_VALUE;
+        int maxVal = Integer.MIN_VALUE;
+         for(int num : nums) {
 
+            minVal = Math.min(minVal , num);
+            maxVal = Math.max(maxVal , num);
+         }
+            return(long) (maxVal - minVal )* k;
+         }
+
+    
+}
 
 
