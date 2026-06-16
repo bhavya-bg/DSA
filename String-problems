@@ -17,3 +17,6 @@ class Solution {
         return ans.toString();
     }
 }
+
+
+3612. Process String with Special Operations I
