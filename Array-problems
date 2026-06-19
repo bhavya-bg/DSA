@@ -255,3 +255,6 @@ class Solution {
         return (long) rangeMAx(l,r) - rangeMin(l,r);
     }
 }
+
+
+1732. Find the Highest Altitude
