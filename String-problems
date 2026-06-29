@@ -70,3 +70,6 @@ class Solution:
                     ans += 1
 
         return ans        
+
+
+1967. Number of Strings That Appear as Substrings in Word
