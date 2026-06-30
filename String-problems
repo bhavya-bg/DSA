@@ -82,3 +82,6 @@ class Solution:
                 count += 1
 
         return count        
+
+
+1358. Number of Substrings Containing All Three Characters
