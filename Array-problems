@@ -6,7 +6,7 @@ class Solution {
         if (nums.length == 0) return 0;
          int i = 026. Remove Duplicates from Sorted Array
 
-solution = 
+solution 
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0) return 0;
